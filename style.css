@@ -19,37 +19,51 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+header{
+    display: block;
+}
+
+main{
+    display: block;
+}
+
 .vizitka{
-    display: inline-block;
     width: 550px;
     background-color: white;
     position: relative;
-    margin: 150px;
+    margin: 150px auto ;
     border-radius: 10px;
+    padding: 30px;
+    position: relative;
     box-shadow: 2px 2px 2px gray;
 }
 
 
 
 h1{
-    display: inline-block;
-   font-size: 36px;
+    font-size: 36px;
     font-weight: bold;
     color: #d63031;
-    margin: 30px 30px 30px 30px;
+    margin-top: 0;
 }
 
+
+
 .p1{
+    display: block;
     font-size: 18px;
-    padding: 0 30px 30px 30px;
+    padding-bottom: 30px;
     margin: 0;
 }
 
 .p2{
+    display: block;
     font-size: 18px;
-    padding: 0 30px 0 30px;
+    padding-bottom: 30px;
     margin: 0;
 }
+
+
 
 
 
@@ -61,7 +75,6 @@ h1{
     text-align: center;
     border-radius: 5px;
     color: white;
-    margin: 30px 30px 5px 30px;
     text-decoration: none;
     padding: 10px;
     background-color:   #1da1f2;
@@ -83,7 +96,7 @@ h1{
     text-align: center;
     border-radius: 5px;
     color: white;
-    margin: 5px 30px 30px 30px;
+    margin-top: 5px;
     text-decoration: none;
     padding: 10px;
     background-color:   #3b5998;
