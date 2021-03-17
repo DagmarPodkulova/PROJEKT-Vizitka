@@ -50,24 +50,21 @@ h1{
 
 
 .p1{
-    display: block;
+    /* display: block;  již je (zbytečné)*/
     font-size: 18px;
-    padding-bottom: 30px;
-    margin: 0;
+    margin-bottom: 30px;
+    /* margin: 0; */
 }
 
 .p2{
-    display: block;
+    /* display: block;  již je (zbytečné)*/
     font-size: 18px;
-    padding-bottom: 30px;
-    margin: 0;
-}
+    margin-bottom: 30px;
+    /* margin: 0;*/
+} 
 
 
-
-
-
-.tw {
+.button{
     display: block;
     font-size: 18px;
     font-weight: bold;
@@ -77,7 +74,12 @@ h1{
     color: white;
     text-decoration: none;
     padding: 10px;
+}
+
+
+.tw {
     background-color:   #1da1f2;
+    margin-bottom : 5px;
 }
 
 .tw:hover{
@@ -89,18 +91,7 @@ h1{
 
 
 .fb{
-    display: block;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    border-radius: 5px;
-    color: white;
-    margin-top: 5px;
-    text-decoration: none;
-    padding: 10px;
     background-color:   #3b5998;
-   
 }
 
 .fb:hover{
